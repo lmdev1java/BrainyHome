@@ -1,0 +1,262 @@
+/* GENERAL */
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #202344;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#root {
+  margin-top: -50px;
+  max-width: 1400px;
+  min-width: 500px;
+}
+
+.logoNombre {
+  width: 200px;
+  height: 70px;
+  padding: 0 10px;
+  border-radius: 20px;
+}
+
+/* 🔑 CUERPO sección LogIn */
+#🔑 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 50px;
+  padding: 0 0 30px 0;
+  /* padding-top: 50px; */
+  place-items: center;
+  /* max-height: 700px; */
+  min-width: 400px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+/* CUERPO sección Principal */
+#🍱 {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 100px;
+  padding: 30px 0 30px 0;
+  place-items: center;
+  min-width: 400px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+#🔑 img {
+  display: flex;
+  width: 300px;
+}
+
+#blanco {
+  text-decoration: none;
+  color: white;
+}
+
+/* BOTONES sección LogIn*/
+.✔ {
+  color: white;
+  background-color: #202344;
+  border-radius: 7px;
+  color: rgb(192, 118, 34);
+}
+
+.📛 {
+  color: g;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
+
+/* CABECERA */
+#⏫ {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding: 20px 0;
+  align-items: center;
+  background-color: teal;
+  border-radius: 20px;
+  min-width: 500px;
+}
+
+.imgCerrar {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+#imgCerrar {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+#⏫ button {
+  background-color: rgb(184, 176, 250);
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+}
+
+/* cuerpo sección PRINCIPAL "/" */
+.💙 {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* background-color: white; */
+  padding: -20px 10px 10px 10px;
+  /* border-radius: 300px; */
+  text-decoration: none;
+  color: #202344;
+}
+
+#logo {
+  display: flex;
+  height: 120px;
+}
+
+#Top {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 30px;
+  background-color: white;
+  border-radius: 20px;
+  /* box-shadow: rgb(230, 151, 48); */
+}
+
+#CerrarSesion {
+  display: flex;
+  justify-content: flex-start;
+  width: 100px;
+  /* padding:20px; */
+}
+
+/* CUERPO sección BrainyHome y Connect */
+
+#🏠 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  /* padding-bottom: 10px; */
+  border-radius: 30px;
+}
+
+#card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#card img {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+#📌 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding-top: 20px;
+}
+
+/* #📌 img{
+  display: flex;
+  max-width: 100px;
+  max-height: 100px;
+} */
+
+/* #datos{
+  color: red;
+} */
+
+#temperatura {
+  color: rgb(230, 151, 48);
+}
+#humedad {
+  display: flex;
+  color: rgb(12, 160, 160);
+}
+
+#name {
+  display: flex;
+  justify-content: center;
+}
+
+/* GRAFICOS */
+#📉 {
+  background-color: rgba(255, 255, 255, 0.712);
+  width: 600px;
+  min-width: 300px;
+}
+
+/* BOTONES ON/OFF */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid;
+  border-radius: 30px;
+}
+li {
+  display: flex;
+  padding-right: 10px;
+}
+
+/* BOTON ESTOYENCASA */
+.🎨 {
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+}
+
+#saved {
+  background-color: salmon;
+}
+#tosave {
+  background-color: springgreen;
+}
+
+.allButtons {
+  color: rgb(73, 211, 142);
+  background-color: #008080cc;
+}
+
+#off {
+  background-color: rgba(228, 36, 36, 0.521);
+  color: rgba(71, 22, 22, 0.644);
+}
+
+.prueba {
+  color: rgb(255, 255, 255);
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
